@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'robot_camera = robot_camera.robot_camera:main',
+
         ],
     },
 )
